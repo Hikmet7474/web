@@ -1,0 +1,175 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+    text-decoration: none;
+}
+
+/* Верхній колонтитул */
+.header {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Контейнер: бокова панель + контент */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    gap: 20px;
+    padding: 0 20px;
+}
+
+/* Бокова панель */
+.sidebar {
+    width: 250px;
+    background-color: #e6e6e6;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 18px;
+
+}
+
+.sidebar a:hover {
+    color: #ff0000;
+}
+
+/* Основний контент */
+.main-content {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.main-image {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Нижній колонтитул */
+.footer {
+    background-color: #1a1a1a;
+    color: #ccc;
+    text-align: center;
+    padding: 125px;
+margin-top: 75px;  
+}
+
+.header1 {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container1 {
+  display: flex;
+  min-height: 80vh;
+}
+
+.sidebar1 {
+  width: 25%;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.main1 {
+  width: 75%;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.footer1 {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color: #ec1111;
+}
+
+
+.header2 {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.container2 {
+  display: flex;
+  min-height: 80vh;
+}
+
+.sidebar2 {
+  width: 25%;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+.main2 {
+  width: 75%;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.footer2 {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+h2, h3 {
+  color: #333;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+a {
+  color: #981b1b;
+  text-decoration: none;
+}
+.image{
+  position:relative;left: 25%;
+}
